@@ -1,0 +1,16 @@
+#listOfTodosDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.todoDiv {
+    background-color: lightcoral;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.todoDiv * {
+    text-align: center;
+}
